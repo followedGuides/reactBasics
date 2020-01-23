@@ -8,6 +8,7 @@ export default class App extends Component {
   render () {
     return (
         <StatelessComponent
+
             props_1="hello im prop 1"
             props_2={12}
             props_3={false}
