@@ -8,11 +8,8 @@ export default class App extends Component {
   render () {
     return (
         <StatelessComponent
-
-            props_1="hello im prop 1"
-            props_2={12}
-            props_3={false}
-            props_4={{ key: "iamthekey", value: "iamthevalue" }}
+            items={["apple", "orange", "peaches"]}
+    
             
         />
     );
