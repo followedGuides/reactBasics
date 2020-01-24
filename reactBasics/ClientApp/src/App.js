@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StatelessComponent from './components/stateless-component';
+import StatefullComponent from './components/statefull-component';
 import './custom.css'
 
 export default class App extends Component {
@@ -7,7 +7,7 @@ export default class App extends Component {
 
   render () {
     return (
-        <StatelessComponent
+        <StatefullComponent
             items={["apple", "orange", "peaches"]}
     
             
